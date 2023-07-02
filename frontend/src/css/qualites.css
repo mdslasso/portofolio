@@ -1,0 +1,278 @@
+@keyframes float {
+    0% {
+
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-2px);
+    }
+
+    100% {
+
+        transform: translatey(0px);
+    }
+}
+
+
+.qualites {
+    background-color: rgba(26, 188, 156, 1);
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.cadre-qualites {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.cadre-qualites-titre {
+
+    text-align: center;
+}
+
+.education-experience {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.education {
+
+    width: 46%;
+    height: 70vh;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px white;
+    padding: 10px;
+
+
+}
+
+.experience {
+
+    width: 46%;
+    height: 70vh;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px white;
+    ;
+    padding: 10px;
+
+}
+
+
+
+.education-experience-titre {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 15px;
+    background-color: rgba(26, 188, 156, 1);
+    padding-top: 15px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+
+
+
+
+}
+
+.education-experience-titre span {
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+.icon-quality {
+    font-size: 15px;
+
+
+
+}
+
+.cadre-education-experience {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+
+.cadre-education-experience h4 {
+    color: #222;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.cadre-education-experience h5 {
+    color: gray;
+    font-size: 15px;
+}
+
+.cadre-education-experience span {
+    font-size: 11px;
+    color: rgba(142, 68, 173, 1);
+    font-style: italic;
+}
+
+.cadre-education-experience p {
+    color: #222;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+
+.education-experience-scroll {
+    overflow: scroll;
+    background-color: whitesmoke;
+    height: 60vh;
+    margin-top: 10px;
+
+}
+
+
+
+/*-------------------------------- Medias Queries Tablette --------------------------------*/
+
+
+@media screen and (max-width: 991px) {
+
+    .cadre-qualites {
+        width: 100%;
+
+
+
+    }
+
+
+    .education-experience {
+        width: 95%;
+
+
+    }
+
+
+    .education {
+
+        width: 46%;
+        height: 70vh;
+        background-color: white;
+        box-shadow: 2px 2px 2px 2px white;
+        padding: 10px;
+
+
+    }
+
+
+
+}
+
+
+
+/* -------------------------------- Medias Queries Smartphone --------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+    .qualites {
+        background-color: rgba(26, 188, 156, 1);
+        padding-top: 20px;
+        padding-bottom: 50px;
+
+    }
+
+
+    .education-experience-titre {
+        font-size: 13px;
+        padding-top: 5px;
+        border-radius: 5px;
+    }
+
+
+    .icon-quality {
+        font-size: 15px;
+        margin-top: 10px;
+
+
+    }
+
+
+
+    .education-experience {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+
+    }
+
+
+    .education {
+
+        width: 90%;
+        margin: auto;
+        box-shadow: 2px 2px 2px 2px white;
+        border-radius: 5px;
+
+
+    }
+
+    .experience {
+
+        width: 90%;
+        margin: auto;
+        box-shadow: 2px 2px 2px 2px white;
+        border-radius: 5px;
+
+    }
+
+
+    .cadre-education-experience h4 {
+        font-size: 15px;
+
+    }
+
+    .cadre-education-experience h5 {
+        font-size: 14px;
+    }
+
+    .cadre-education-experience span {
+        font-size: 10px;
+        color: rgba(142, 68, 173, 1);
+    }
+
+    .cadre-education-experience p {
+        color: #222;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+
+    }
+
+
+
+
+
+
+
+
+}

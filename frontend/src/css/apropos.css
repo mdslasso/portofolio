@@ -1,0 +1,97 @@
+.apropos {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.cadre-apropos {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+
+.cadre-apropos-titre {
+
+    text-align: center;
+}
+
+
+
+.paragragre {
+    width: 80%;
+    margin: auto;
+    color: #222;
+    line-height: 25px;
+    font-family: Montserrat;
+    font-weight: 500;
+
+}
+
+.cadre-apropos span {
+    display: block;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px black;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #222;
+
+}
+
+
+
+/*-------------------------------- Medias Queries Tablette --------------------------------*/
+
+
+@media screen and (max-width: 991px) {
+
+    .cadre-apropos {
+        width: 100%;
+
+    }
+
+
+
+    .paragragre {
+        width: 90%;
+
+    }
+
+
+
+}
+
+
+
+/* -------------------------------- Medias Queries Smartphone --------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+
+
+    .cadre-apropos {
+        width: 100%;
+
+    }
+
+
+
+    .paragragre {
+        width: 90%;
+
+    }
+
+
+
+
+
+}

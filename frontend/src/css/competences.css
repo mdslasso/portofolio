@@ -1,0 +1,102 @@
+.competences {
+
+    background: white;
+    padding-bottom: 80px;
+    padding-top: 20px;
+
+}
+
+
+.cadre-competences {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.cadre-competences-titre {
+
+    text-align: center;
+}
+
+
+.competence-note {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+
+.competence-note img {
+
+    width: 30%;
+    margin: auto;
+
+}
+
+.competence-note h6 {
+    font-weight: bold;
+
+}
+
+
+
+.row {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+/* -------------------------------- Medias Queries Smartphone --------------------------------*/
+
+@media screen and (max-width: 767px) {
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .row {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        background-color: white;
+        text-align: center;
+
+    }
+
+    .competence-note {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+    }
+
+
+    .competence-note img {
+
+        width: 20%;
+        margin: auto;
+
+    }
+
+    .competence-note h6 {
+        font-weight: bold;
+        font-size: 12px;
+
+    }
+
+
+
+
+
+}
