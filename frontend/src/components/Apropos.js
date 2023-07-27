@@ -6,7 +6,6 @@ function Apropos() {
     return (
 
 
-
         <div className="apropos">
 
             <div className="cadre-apropos">
@@ -20,30 +19,32 @@ function Apropos() {
 
 
                 <div className="paragragre">
-
-                    <p>Après plusieurs années en tant qu’illustratrice, graphiste et autrice jeunesse free-lance, j’ai décidé de me former au métier de développeuse front-end, ayant toujours été intéressée par la tech et l’expérience utilisateur.</p>
-
-                    <p>  Mon appétence pour la création ne m’ayant jamais quittée, je souhaite désormais travailler dans le Webdesign afin de combiner mes connaissances et compétences en arts visuels et monde digital !</p>
+                    <p> Ville : <span>  Amiens </span></p>
+                    <p> Langues : <span> Francais, Anglais, Russe </span></p>
+                    <p> Sports : <span>   Football, Musculation </span></p>
+                    <p>  Disponibilité : <span>   Immédiate </span></p>
 
 
                 </div>
 
 
-                <span>  <FontAwesomeIcon icon={faEnvelope} /> Me Contacter</span>
 
 
 
-
-
+                <span className='me-contacter'>  <a href='#contact'>
+                    <FontAwesomeIcon icon={faEnvelope} /> Me Contacter
+                </a>
+                </span>
 
 
 
 
             </div>
+            <div id='qualites'></div>
 
 
 
-            <br></br>
+
 
         </div >
     )

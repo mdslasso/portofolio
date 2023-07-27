@@ -1,0 +1,31 @@
+.contact {
+    background-color: black;
+    height: 200px;
+
+}
+
+.cadre-contact {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.cadre-contact h1 {
+    font-size: 25px;
+
+
+}
+
+.phone-mail {
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.phone-mail a {
+    color: white;
+
+}

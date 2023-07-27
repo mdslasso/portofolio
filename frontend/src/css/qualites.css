@@ -16,9 +16,13 @@
 
 
 .qualites {
-    background-color: rgba(26, 188, 156, 1);
+    background: rgb(26, 188, 156);
+    background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+    background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
     padding-top: 20px;
     padding-bottom: 50px;
+
 
 }
 
@@ -124,8 +128,9 @@
 
 .cadre-education-experience span {
     font-size: 11px;
-    color: rgba(142, 68, 173, 1);
-    font-style: italic;
+    color: rgba(26, 188, 156, 1);
+    font-family: Montserrat;
+    font-weight: 900;
 }
 
 .cadre-education-experience p {

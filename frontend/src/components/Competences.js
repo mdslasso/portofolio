@@ -1,6 +1,4 @@
-import Html from '../assets/html.png'
-import Css from '../assets/css.png'
-import Js from '../assets/js.png'
+import datas from '../datas/competences.json'
 
 function Competences() {
 
@@ -20,38 +18,25 @@ function Competences() {
                 </div>
 
 
-                <div className="row">
+                <div className="competence-row">
 
-                    <div className="col-md-4">
+                    {datas.map((data) =>
 
-                        <div className="competence-note">
-                            <img src={Html} alt='Html' />
-                            <h6 >HTML</h6>
+                        <article>
+                            <div className="competence-note">
+                                <img src={data.image} alt={data.competence} />
+                                <h6 >{data.competence}</h6>
 
-                        </div>
-
-                    </div>
-
-                    <div className="col-md-4">
-
-                        <div className="competence-note">
-                            <img src={Css} alt='Css' />
-                            <h6 >CSS</h6>
-
-                        </div>
-
-                    </div>
+                            </div>
+                        </article>
 
 
-                    <div className="col-md-4">
+                    )}
 
-                        <div className="competence-note">
-                            <img src={Js} alt='Js' />
-                            <h6 >JAVASCRIPT</h6>
 
-                        </div>
 
-                    </div>
+
+
 
 
                 </div>
@@ -60,7 +45,7 @@ function Competences() {
             </div>
 
 
-
+            <div id='realisations'></div>
         </div>
     )
 

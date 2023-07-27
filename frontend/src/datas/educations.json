@@ -1,0 +1,39 @@
+[
+
+	{
+		"id": "c67ab8a7",
+		"diplome": " Développeur Web ",
+		"universite": "Openclassrooms",
+		"annees": "2022 - 2023"
+		
+	},
+
+
+    {
+		"id": "c67ab8a7",
+		"diplome": "Bac+2 en Développeur Web Python Django",
+		"universite": "Step IT Academy Ukraine",
+		"annees": "2018 - 2019"
+		
+	},
+
+	{
+		"id": "c67ab8a7",
+		"diplome": "Bac+2 en informatique",
+		"universite": "Cambridge University ",
+		"annees": "2015 - 2017"
+		
+		
+	},
+
+	{
+		"id": "c67ab8a7",
+		"diplome": "Licence en  G.E.A (Gestion d'entreprise et d'administration)",
+		"universite": "Universite  Jeluis Nyerere",
+		"annees": "2008 - 2012"
+		
+		
+	}
+
+
+]

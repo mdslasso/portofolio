@@ -62,8 +62,8 @@
 
 
 .nav .logo {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     transform: scale(2);
     animation: pulse 0.3s infinite;
     border-radius: 50px;
@@ -83,6 +83,11 @@
     flex-wrap: wrap;
     margin: 20px;
 
+
+}
+
+.menu-toggle {
+    display: none;
 
 }
 
@@ -140,6 +145,14 @@
     text-align: center;
     color: white;
     font-weight: bold;
+
+
+}
+
+.voir-realisation a {
+
+    color: white;
+
 
 
 }
@@ -242,14 +255,6 @@
     }
 
 
-    .nav {
-        width: 100%;
-
-
-
-    }
-
-
 
     .infos {
         margin-top: -10px;
@@ -282,16 +287,90 @@
     }
 
 
-    .menu {
+
+    .nav {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        background-color: red;
-        display: none;
+
+        box-shadow: none;
+        justify-content: start;
+        background: rgb(26, 188, 156);
+        background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+        background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+        background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+
+
 
 
     }
+
+
+
+
+    .menu {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 0px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        gap: 30px;
+        margin-top: 50px;
+        display: none;
+
+
+
+    }
+
+
+
+    .menu a {
+
+        color: white;
+        font-weight: bold;
+
+
+
+    }
+
+    .logo-menu-toggle {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: rgb(26, 188, 156);
+        background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+        background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+        background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+        box-shadow: 1px 1px 1px 1px rgba(26, 188, 156, 1);
+
+
+    }
+
+
+    .logo-menu-toggle div {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+
+    }
+
+
+
+
+    .menu-toggle {
+
+        display: block;
+        margin-top: 20px;
+        margin-right: 10px;
+        font-size: 18px;
+        color: white;
+    }
+
 
 
     .cv {

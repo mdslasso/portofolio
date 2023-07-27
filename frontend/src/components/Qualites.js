@@ -1,7 +1,8 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faDesktop } from '@fortawesome/free-solid-svg-icons'
-
+import datas_educations from '../datas/educations.json'
+import datas_experiences from '../datas/experiences.json'
 
 
 
@@ -31,45 +32,22 @@ function Qualites() {
 
                         <div className='education-experience-scroll'>
 
-                            <div className='cadre-education-experience'>
-                                <h4>Master In CSE</h4>
-                                <h5>Cambridge University | <span>2000 - 2050</span></h5>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod.
-                                    Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam
-                                </p>
+
+                            {datas_educations.map((data) =>
+
+                                <div className='cadre-education-experience'>
+                                    <h4>{data.diplome}</h4>
+                                    <h5>{data.universite} | <span>{data.annees}</span></h5>
+                                    <p>{data.description}</p>
 
 
-                            </div>
-
-                            <div className='cadre-education-experience'>
-                                <h4>Master In CSE</h4>
-                                <h5>Cambridge University | <span>2000 - 2050</span></h5>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod.
-                                    Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam
-                                </p>
+                                </div>
 
 
-                            </div>
-
-                            <div className='cadre-education-experience'>
-                                <h4>Master In CSE</h4>
-                                <h5>Cambridge University | <span>2000 - 2050</span></h5>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod.
-                                    Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam
-                                </p>
+                            )}
 
 
-                            </div>
 
-                            <div className='cadre-education-experience'>
-                                <h4>Master In CSE</h4>
-                                <h5>Cambridge University | <span>2000 - 2050</span></h5>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod.
-                                    Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam
-                                </p>
-
-
-                            </div>
 
                         </div>
 
@@ -86,53 +64,28 @@ function Qualites() {
 
                         <div className='education-experience-scroll'>
 
-                            <div className='cadre-education-experience'>
-                                <h4>Master In CSE</h4>
-                                <h5>Cambridge University | <span>2000 - 2050</span></h5>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod.
-                                    Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam
-                                </p>
+
+                            {datas_experiences.map((data) =>
+
+                                <div className='cadre-education-experience'>
+                                    <h4>{data.poste}</h4>
+                                    <h5>{data.entreprise} | <span>{data.annees}</span></h5>
+                                    <p>{data.description}</p>
 
 
-                            </div>
-
-                            <div className='cadre-education-experience'>
-                                <h4>Master In CSE</h4>
-                                <h5>Cambridge University | <span>2000 - 2050</span></h5>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod.
-                                    Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam
-                                </p>
+                                </div>
 
 
-                            </div>
-
-                            <div className='cadre-education-experience'>
-                                <h4>Master In CSE</h4>
-                                <h5>Cambridge University | <span>2000 - 2050</span></h5>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod.
-                                    Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam
-                                </p>
-
-
-                            </div>
-
-                            <div className='cadre-education-experience'>
-                                <h4>Master In CSE</h4>
-                                <h5>Cambridge University | <span>2000 - 2050</span></h5>
-                                <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod.
-                                    Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam
-                                </p>
-
-
-                            </div>
-
-
+                            )}
 
 
 
                         </div>
 
+
+
                     </div>
+
 
 
 
@@ -146,7 +99,10 @@ function Qualites() {
             </div>
 
 
+
+
             <br></br>
+            <div id='competences'></div>
         </div>
     )
 

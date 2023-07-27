@@ -1,0 +1,53 @@
+[
+
+
+    {
+		"id": "c67ab8a7",
+		"competence": "HTML",
+		"image": "https://cdn-icons-png.flaticon.com/128/1051/1051328.png"
+		
+		
+	},
+	{
+		"id": "c67ab8a7",
+		"competence": "CSS",
+		"image": "https://cdn-icons-png.flaticon.com/128/732/732007.png"
+		
+		
+	},
+
+	{
+		"id": "c67ab8a7",
+		"competence": "Javascript",
+		"image": "https://cdn-icons-png.flaticon.com/128/721/721671.png"
+		
+		
+	},
+
+	{
+		"id": "c67ab8a7",
+		"competence": "React.js",
+		"image": "https://cdn-icons-png.flaticon.com/128/3393/3393920.png"
+		
+		
+	},
+
+	{
+		"id": "c67ab8a7",
+		"competence": "Node.js",
+		"image": "https://cdn-icons-png.flaticon.com/128/5968/5968526.png"
+		
+		
+	},
+	{
+		"id": "c67ab8a7",
+		"competence": "Django",
+		"image": "https://cdn.icon-icons.com/icons2/512/PNG/512/prog-django_icon-icons.com_50802.png"
+		
+		
+	}
+
+	
+
+
+]

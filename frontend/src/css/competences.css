@@ -22,7 +22,27 @@
 }
 
 
+
+
+
+.competence-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.competence-row article {
+    width: 30%;
+    margin: 10px;
+
+}
+
 .competence-note {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -43,13 +63,34 @@
 }
 
 
+/*-------------------------------- Medias Queries Tablette --------------------------------*/
 
-.row {
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
+
+@media screen and (max-width: 991px) {
+
+    .competence-row article {
+        width: 25%;
+        margin: 10px;
+
+    }
+
+    .competence-note img {
+
+        width: 40%;
+        margin: auto;
+
+    }
+
+    .competence-note h6 {
+        font-weight: bold;
+        font-size: 13px;
+
+    }
+
+
+
 }
+
 
 
 
@@ -60,18 +101,17 @@
 
     .row {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 20px
     }
 
-    .row {
-        width: 100%;
-        margin: auto;
-        justify-content: center;
-        background-color: white;
-        text-align: center;
+    .competence-row article {
+        width: 25%;
+        margin: 10px;
 
     }
+
+
 
     .competence-note {
         display: flex;
@@ -82,16 +122,18 @@
     }
 
 
+
+
     .competence-note img {
 
-        width: 20%;
+        width: 60%;
         margin: auto;
 
     }
 
     .competence-note h6 {
         font-weight: bold;
-        font-size: 12px;
+        font-size: 10px;
 
     }
 
