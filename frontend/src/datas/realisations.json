@@ -4,7 +4,7 @@
     {
 		"id": "c67ab8a71",
 		"titre": "Booki",
-		"image": "https://cdn-icons-png.flaticon.com/128/721/721671.png",
+		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/booki.webp",
 		"description": " Créez la page d'accueil d'une agence de voyage avec HTML & CSS.Intégrer la maquette Figma de manière responsive.HTML 5 CSS 3",
 		"lien": "https://mdslasso.github.io/booki-projet/"
 		
@@ -13,7 +13,7 @@
 	{
 		"id": "c67ab8a72",
 		"titre": "Le vieux grimoire",
-		"image": "https://cdn-icons-png.flaticon.com/128/721/721671.png",
+		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/mon_vieux_grimoire.jpg",
 		"description": "Développer le backend d'un site de notation de livres. Implémenter l'inscription utilisateur, la base de données, l'optimisation des images.",
 		"lien": "https://github.com/mdslasso/mon-vieux-grimoire"
 		
@@ -22,7 +22,7 @@
 	{
 		"id": "c67ab8a73",
 		"titre": "Sophie Bluel",
-		"image": "https://cdn-icons-png.flaticon.com/128/721/721671.png",
+		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/sophie_bluel.webp",
 		"description": " Créer une page web dynmique avec javascript Créer la page de connexion, la modale d'upload de travaux, la modale d'affichage des travaux.",
 		"lien": " https://github.com/mdslasso/sophie-bluel"
 		
@@ -31,7 +31,7 @@
 	{
 		"id": "c67ab8a74",
 		"titre": " Nina Carducci",
-		"image": "https://cdn-icons-png.flaticon.com/128/721/721671.png",
+		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/nina_carducci.webp",
 		"description": " Débugger et optimiser le site d'un photographe.Améliorer l'accessibilité, les performances techniques, mettre en place le référencement local.",
 		"lien": "https://github.com/mdslasso/nina-carducci"
 		
@@ -40,7 +40,7 @@
 	{
 		"id": "c67ab8a75",
 		"titre": "Kasa",
-		"image": "https://cdn-icons-png.flaticon.com/128/721/721671.png",
+		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/kasa.webp",
 		"description": " Créez une application web de location immobilière avec React. Utiliser des composants réutilisables, mettre en place le routage entre les pages.",
 		"lien": "https://github.com/mdslasso/nina-carducci"
 		

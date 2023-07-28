@@ -6,7 +6,7 @@ function Contact() {
     return (
 
 
-        <div id='contact' className="contact">
+        <div className="contact">
 
             <div className="cadre-contact">
 
