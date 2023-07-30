@@ -7,3 +7,26 @@ npm satrt
 npm i --save @fortawesome/fontawesome-svg-core
 npm install --save @fortawesome/free-solid-svg-icons
 npm install --save @fortawesome/react-fontawesome
+
+
+1- installer le package gh-pages
+- npm install gh-pages --save-dev
+
+qui va nous permet d'acceder au site en ligne a traver la branche  gh-pages
+
+2-  Nous allons define une homepage tout en haut du fichier package.json 
+     cette homepage sera la page d'acceuil que notre site va s'ouvrir
+    "homepage": "https://mdslasso.github.io/portofolio",
+
+3- On va ajouter un script dans le fichier package.json 
+ "deploy": "gh-pages -d build" 
+ ce script va nous permet de deployer avec gh-pages -d build en creant une nouvelle branche  gh-pages
+
+
+ 4- Nous allons creer un build ( dossier de production) qui va etre en ligne 
+ et  qui va nous permette de visualiser notre site  en ligne     
+ - npm run build
+
+ 5- Deployer le site en ligne
+ - npm run deploy
+

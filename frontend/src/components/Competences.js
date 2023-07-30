@@ -22,7 +22,7 @@ function Competences() {
 
                     {datas.map((data) =>
 
-                        <article>
+                        <article key={data.id}>
                             <div className="competence-note">
                                 <img src={data.image} alt={data.competence} />
                                 <h6 >{data.competence}</h6>

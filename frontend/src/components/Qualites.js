@@ -35,7 +35,8 @@ function Qualites() {
 
                             {datas_educations.map((data) =>
 
-                                <div className='cadre-education-experience'>
+                                <div key={data.id} className='cadre-education-experience'>
+
                                     <h4>{data.diplome}</h4>
                                     <h5>{data.universite} | <span>{data.annees}</span></h5>
                                     <p>{data.description}</p>

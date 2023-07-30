@@ -25,7 +25,7 @@ function Realisations() {
 
                     {datas.map((data) =>
 
-                        <div className="element-realisation">
+                        <div key={data.id} className="element-realisation">
 
                             <img src={data.image} alt='imageprojet' />
 
@@ -42,7 +42,7 @@ function Realisations() {
 
 
                             <div className='lien'>
-                                <a href="https://mdslasso.github.io/booki-projet/" target='blank'>  <FontAwesomeIcon icon={faLink} />  Voir le site</a>
+                                <a href={data.lien} target='blank'>  <FontAwesomeIcon icon={faLink} />  Voir le site</a>
 
                             </div>
 
