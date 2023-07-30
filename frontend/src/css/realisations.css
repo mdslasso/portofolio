@@ -102,12 +102,12 @@
 
 .lien a {
 
-    background-color: red;
-    color: white;
+
+    color: black;
     padding: 5px;
     border-radius: 5px;
     font-size: 14px;
-
+    box-shadow: 2px 2px 2px 2px gainsboro;
 
 
 
