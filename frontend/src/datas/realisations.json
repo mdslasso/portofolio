@@ -71,7 +71,7 @@
 		"titre": "Kasa",
 		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/kasa.webp",
 		"description": " Créez une application web de location immobilière avec React. Utiliser des composants réutilisables, mettre en place le routage entre les pages.",
-		"lien": "https://github.com/mdslasso/nina-carducci",
+		"lien": "https://mdslasso.github.io/kasa",
 		"text" : " Voir le site",
 		"technos": [
 			"React",
