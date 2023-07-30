@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px;
     background-color: white;
     margin-top: 20px;
@@ -56,7 +56,7 @@
 
 .element-realisation img {
     width: 100%;
-    height: 280px;
+    height: 220px;
 
 
 
@@ -64,8 +64,9 @@
 
 .element-realisation h1 {
     text-align: center;
-    font-size: 20px;
-    color: red;
+    font-size: 18px;
+    color: black;
+    -webkit-text-stroke: 1px black;
 
 
 
@@ -83,6 +84,15 @@
 
 }
 
+.element-realisation .description hr {
+
+    width: 90%;
+    margin: auto;
+
+
+}
+
+
 .lien {
     width: 100%;
     text-align: center;
@@ -92,7 +102,7 @@
 
 .lien a {
 
-    background-color: black;
+    background-color: red;
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -103,6 +113,31 @@
 
 }
 
+
+.techno {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+.techno li {
+    display: inline-block;
+    background-color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 13px;
+
+
+}
 
 
 

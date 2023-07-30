@@ -6,7 +6,13 @@
 		"titre": "Booki",
 		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/booki.webp",
 		"description": " Créez la page d'accueil d'une agence de voyage avec HTML & CSS.Intégrer la maquette Figma de manière responsive.HTML 5 CSS 3",
-		"lien": "https://mdslasso.github.io/booki-projet/"
+		"lien": "https://mdslasso.github.io/booki-projet/",
+		"text" : " Voir le site",
+		"technos": [
+			"HTML 5",
+			"CSS 3"
+			
+		]
 		
 	},
 
@@ -15,7 +21,15 @@
 		"titre": "Le vieux grimoire",
 		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/mon_vieux_grimoire.jpg",
 		"description": "Développer le backend d'un site de notation de livres. Implémenter l'inscription utilisateur, la base de données, l'optimisation des images.",
-		"lien": "https://github.com/mdslasso/mon-vieux-grimoire"
+		"lien": "https://github.com/mdslasso/mon-vieux-grimoire",
+		"text" : " Voir le code",
+		"technos": [
+			"Node.js",
+			"Express.js",
+			"Mongo DB",
+			"API"
+			
+		]
 		
 	},
 
@@ -24,7 +38,13 @@
 		"titre": "Sophie Bluel",
 		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/sophie_bluel.webp",
 		"description": " Créer une page web dynmique avec javascript Créer la page de connexion, la modale d'upload de travaux, la modale d'affichage des travaux.",
-		"lien": " https://github.com/mdslasso/sophie-bluel"
+		"lien": " https://github.com/mdslasso/sophie-bluel",
+		"text" : " Voir le code",
+		"technos": [
+			"Javascript",
+			"API"
+			
+		]
 		
 	},
 
@@ -33,7 +53,16 @@
 		"titre": " Nina Carducci",
 		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/nina_carducci.webp",
 		"description": " Débugger et optimiser le site d'un photographe.Améliorer l'accessibilité, les performances techniques, mettre en place le référencement local.",
-		"lien": "https://github.com/mdslasso/nina-carducci"
+		"lien": "https://github.com/mdslasso/nina-carducci",
+		"text" : " Voir le site",
+		"technos": [
+			"Débug",
+			"Audit",
+			"Wave",
+			"SEO",
+			"Schema.org"
+			
+		]	
 		
 	},
 
@@ -42,9 +71,39 @@
 		"titre": "Kasa",
 		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/kasa.webp",
 		"description": " Créez une application web de location immobilière avec React. Utiliser des composants réutilisables, mettre en place le routage entre les pages.",
-		"lien": "https://github.com/mdslasso/nina-carducci"
+		"lien": "https://github.com/mdslasso/nina-carducci",
+		"text" : " Voir le site",
+		"technos": [
+			"React",
+			"React router"
+			
+		]
+
+		
+	},
+
+
+	{
+		"id": "c67ab8a76",
+		"titre": "Rap2gnakry",
+		"image": "https://storage.googleapis.com/mdslasso_bucket/Portfolio/rap2gnakry.png",
+		"description": "Rap2gnakry est un média web qui traite toute l'actualite du rap Guinéen",
+		"lien": "https://www.rap2gnakry.com/",
+		"text" : " Voir le site",
+		"technos": [
+			"HTML 5",
+			"CSS 3",
+			"Python",
+			"Django"
+			
+		]
+
+
+
 		
 	}
+
+
 
 
 

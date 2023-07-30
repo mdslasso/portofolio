@@ -36,13 +36,29 @@ function Realisations() {
                                 <p>
                                     {data.description}
                                 </p>
+                                <hr></hr>
+
+                                <div className='techno'>
+
+                                    {data.technos.map((techno, index) => (
+
+                                        <li> {techno}</li>
+
+                                    ))}
+
+
+
+
+
+                                </div>
+
 
                             </div>
 
 
 
                             <div className='lien'>
-                                <a href={data.lien} target='blank'>  <FontAwesomeIcon icon={faLink} />  Voir le site</a>
+                                <a href={data.lien} target='blank'>  <FontAwesomeIcon icon={faLink} /> {data.text}</a>
 
                             </div>
 
@@ -51,13 +67,6 @@ function Realisations() {
 
 
                     )}
-
-
-
-
-
-
-
 
 
                 </div>
